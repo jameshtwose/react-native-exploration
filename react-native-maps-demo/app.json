@@ -18,6 +18,7 @@
       }
     },
     "web": {
+      "assetPrefix": "./",
       "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png"
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0ece63fa-9de9-4720-af83-7919981ef558"
+      }
     }
   }
 }
